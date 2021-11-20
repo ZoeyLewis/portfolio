@@ -1,12 +1,43 @@
-h1 {
-  background-color: #ff7f20;
-  font-family: "Poppins", sans-serif;
-  font-size: 50px;
+nav {
+  border-bottom: 5px solid coral;
 }
 
+h1 {
+  color: white;
+  display: block;
+  margin-top: 150px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 120px;
+  padding: 100px auto;
+  text-align: center;
+  width: 100%;
+}
 h2 {
-  font-family: "Poppins", sans-serif;
+  color: coral;
+  margin: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 31px;
+  text-align: center;
+}
+.hero {
+  background-color: #8ef5ff;
 }
 .zoey-lewis-logo {
-  width: 200px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+.headshot {
+  width: 250px;
+  border: 5px solid coral;
+  border-radius: 100%;
+  position: relative;
+  top: -100px;
+}
+@media (max-width: 767.98px) {
+  .headshot {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+  }
 }
