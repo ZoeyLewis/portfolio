@@ -1,5 +1,6 @@
 nav {
   border-bottom: 5px solid coral;
+  max-width: 100%;
 }
 
 h1 {
@@ -10,7 +11,6 @@ h1 {
   font-size: 120px;
   padding: 100px auto;
   text-align: center;
-  width: 100%;
 }
 h2 {
   color: coral;
@@ -48,20 +48,10 @@ nav a:hover {
   background-color: coral;
   color: white;
   display: block;
+  margin: 0 auto;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
-  padding: 20px;
+  padding: 15px;
   border-radius: 8px;
-  margin: 0 auto;
   text-align: center;
-  max-width: 150px;
-  position: relative;
-  top: -150px;
-}
-@media (max-width: 767.98px) {
-  .contact-me-link {
-    max-width: 50%;
-    position: relative;
-    top: 30px;
-  }
 }

@@ -30,10 +30,10 @@
   </head>
   <body>
     <nav
-      class="navbar fixed-top ps-3 navbar-expand-lg navbar-light"
+      class="navbar fixed-top ps-3 w-100 navbar-expand-lg navbar-light"
       style="background-color: #fdd835"
     >
-      <div class="container-fluid">
+      <div class="container-fluid p-0">
         <img src="images/zoey_lewis_logo.png" class="zoey-lewis-logo" />
         <a class="navbar-brand" href="index.html#" style="color: coral"
           >Zoey Lewis</a
@@ -78,9 +78,11 @@
       </div>
       <div class="row">
         <div class="col-md-8">
-          <h2>I'm Zoey, a Front-End Developer based in London.</h2>
+          <h2 class="ms-0 me-0">
+            I'm Zoey, a Front-End Developer based in London.
+          </h2>
         </div>
-        <div class="col-md-4 img-fluid">
+        <div class="col-md-3 img-fluid m-0">
           <img
             src="images/cropped_headshot.jpg"
             alt="headshot"
@@ -89,10 +91,18 @@
         </div>
       </div>
       <div class="row">
-        <a href="#" title="Contact Me Link" class="contact-me-link"
-          >Contact me</a
-        >
+        <div class="col-md-6">BFI Image</div>
+        <div class="col-md-6">Text about BFI</div>
       </div>
+      <div class="row">
+        <div class="col-md-6">Text about Weather</div>
+        <div class="col-md-6">Weathher Image</div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">Dictionary Image</div>
+        <div class="col-md-6">Text about Dictionary</div>
+      </div>
+      <button href="#" class="contact-me-link">Contact me</button>
     </div>
   </body>
 </html>
