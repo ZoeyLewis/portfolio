@@ -1,3 +1,11 @@
+:root {
+  --header-font-family: "Space Grotesk", sans-serif;
+  --body-font-family: "Raleway", sans-serif;
+  --primary-color: #8ef5ff;
+  --secondary-color: coral;
+  --accent-color: #fdd835;
+}
+
 nav {
   border-bottom: 5px solid coral;
   max-width: 100%;
@@ -7,15 +15,15 @@ h1 {
   color: white;
   display: block;
   margin-top: 150px;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--header-font-family);
   font-size: 120px;
   padding: 100px auto;
   text-align: center;
 }
-h2 {
-  color: coral;
+.sub-heading {
+  color: var(--secondary-color);
   margin: 30px;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--body-font-family);
   font-size: 31px;
   text-align: center;
 }
@@ -23,7 +31,7 @@ nav a:hover {
   font-weight: bold;
 }
 .hero {
-  background-color: #8ef5ff;
+  background-color: var(--primary-color);
 }
 .zoey-lewis-logo {
   width: 70px;
@@ -31,7 +39,7 @@ nav a:hover {
 }
 .headshot {
   width: 250px;
-  border: 5px solid coral;
+  border: 5px solid var(--secondary-color);
   border-radius: 100%;
   position: relative;
   top: -100px;
@@ -44,12 +52,30 @@ nav a:hover {
     top: 0px;
   }
 }
-.contact-me-link {
+@media (min-width: 767.98px) {
+  .project-cards {
+    position: relative;
+    top: -80px;
+  }
+}
+.project-image {
+  border: 5px solid var(--accent-color);
+  border-radius: 8px;
+}
+.project-header {
+  color: var(--secondary-color);
+  font-family: var(--header-font-family);
+}
+.project-description {
+  color: var(--secondary-color);
+  font-family: var(--body-font-family);
+}
+.contact-me-button {
   background-color: coral;
   color: white;
   display: block;
   margin: 0 auto;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--body-font-family);
   text-decoration: none;
   padding: 15px;
   border-radius: 8px;
