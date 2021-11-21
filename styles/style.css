@@ -52,6 +52,15 @@ nav a:hover {
     position: relative;
     top: 0px;
   }
+  .project-button {
+    display: block;
+    margin: 0 auto;
+  }
+  .project-header,
+  .project-description,
+  .footer-text {
+    text-align: center;
+  }
 }
 @media (min-width: 767.98px) {
   .project-cards {
@@ -84,12 +93,7 @@ nav a:hover {
   border-radius: 8px;
   text-align: center;
 }
-@media (max-width: 767.98px) {
-  .project-button {
-    display: block;
-    margin: 0 auto;
-  }
-}
+
 .contact-me-button {
   background-color: var(--secondary-color);
   border: var(--secondary-color);
