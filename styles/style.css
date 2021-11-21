@@ -74,7 +74,8 @@ nav a:hover {
   margin: 10px;
   font-family: var(--body-font-family);
 }
-.contact-me-button {
+.contact-me-button,
+.project-button {
   background-color: var(--secondary-color);
   border: var(--secondary-color);
   box-shadow: 0px 7px 29px 0px var(--secondary-color);
