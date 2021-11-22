@@ -58,8 +58,20 @@ nav a:hover {
   }
   .project-header,
   .project-description,
-  .footer-text {
+  .footer-text,
+  .about-me-header,
+  .about-me-paragraph {
     text-align: center;
+  }
+  .about-me-header {
+    font-size: 100px;
+    margin: 130px auto 20px auto;
+    padding-left: 0px;
+  }
+  .about-me-image {
+    margin: 20px auto 0px;
+    display: block;
+    max-width: 80%;
   }
 }
 @media (min-width: 767.98px) {
@@ -78,7 +90,8 @@ nav a:hover {
   margin: 10px;
   font-family: var(--header-font-family);
 }
-.project-description {
+.project-description,
+.about-me-paragraph {
   color: var(--secondary-color);
   margin: 10px;
   font-family: var(--body-font-family);
@@ -123,4 +136,9 @@ nav a:hover {
 }
 i {
   margin: 0px 20px;
+}
+
+.about-me-image {
+  border: solid 5px var(--accent-color);
+  border-radius: 8px;
 }
