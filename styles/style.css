@@ -20,6 +20,9 @@ h1 {
   padding: 100px auto;
   text-align: center;
 }
+.row {
+  --bs-gutter-x: 0;
+}
 .sub-heading {
   color: var(--secondary-color);
   margin: 30px;
@@ -85,6 +88,10 @@ nav a:hover {
   .project-cards {
     position: relative;
     top: -80px;
+    margin: 30px;
+  }
+  .project-button {
+    margin-left: 15px;
   }
 }
 .project-image,
@@ -95,7 +102,7 @@ nav a:hover {
 }
 .project-header {
   color: var(--secondary-color);
-  margin: 10px;
+  margin: 15px;
   font-family: var(--header-font-family);
 }
 .project-page-project-header {
@@ -111,7 +118,7 @@ nav a:hover {
 .project-description,
 .about-me-paragraph {
   color: var(--secondary-color);
-  margin: 10px;
+  margin: 15px;
   font-family: var(--body-font-family);
 }
 .project-button {
