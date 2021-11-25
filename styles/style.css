@@ -32,6 +32,7 @@ h1 {
 }
 
 nav a:hover {
+  transition: ease-in-out 30ms;
   font-weight: bold;
 }
 .container-fluid {
@@ -70,7 +71,8 @@ nav a:hover {
   .about-me-paragraph {
     text-align: center;
   }
-  #projectHeader {
+  #projectHeader,
+  #contactHeader {
     font-size: 80px;
   }
   .page-header {
@@ -172,4 +174,19 @@ i {
   max-height: 80%;
   display: flex;
   justify-content: center;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.contact-links a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: var(--body-font-family);
+  font-size: 25px;
+}
+.contact-links a:hover {
+  transition: ease-in-out 30ms;
+  font-weight: bold;
 }
