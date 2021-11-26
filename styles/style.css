@@ -31,10 +31,13 @@ h1 {
   text-align: center;
 }
 
+nav a {
+  transition: all 130ms ease-in-out;
+}
 nav a:hover {
-  transition: ease-in-out 30ms;
   font-weight: bold;
 }
+
 .container-fluid {
   padding: 0;
 }
@@ -185,8 +188,8 @@ i {
   color: var(--secondary-color);
   font-family: var(--body-font-family);
   font-size: 25px;
+  transition: all 130ms ease-in-out;
 }
 .contact-links a:hover {
-  transition: ease-in-out 30ms;
   font-weight: bold;
 }
