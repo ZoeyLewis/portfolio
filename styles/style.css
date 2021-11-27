@@ -75,6 +75,7 @@ nav a:hover,
   .project-button {
     display: block;
     margin: 0 auto;
+    max-width: fit-content;
   }
   .project-header,
   .project-description,
@@ -96,6 +97,9 @@ nav a:hover,
     margin: 20px auto 0px;
     display: block;
     max-width: 80%;
+  }
+  .sub-footer-text {
+    font-size: 13px;
   }
 }
 @media (min-width: 767.98px) {
