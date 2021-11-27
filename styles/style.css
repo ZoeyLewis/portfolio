@@ -34,7 +34,8 @@ h1 {
 nav a {
   transition: all 130ms ease-in-out;
 }
-nav a:hover {
+nav a:hover,
+.active {
   font-weight: bold;
 }
 
@@ -47,7 +48,10 @@ nav a:hover {
 }
 .zoey-lewis-logo {
   width: 70px;
-  margin-bottom: 10px;
+}
+.navbar-brand,
+.nav-link {
+  font-family: var(--body-font-family);
 }
 .headshot {
   width: 250px;
