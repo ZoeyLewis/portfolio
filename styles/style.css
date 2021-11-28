@@ -84,6 +84,10 @@ nav a:hover,
   .about-me-paragraph {
     text-align: center;
   }
+  .contact-sub-heading {
+    display: flex;
+    justify-content: center;
+  }
   #projectHeader,
   #contactHeader {
     font-size: 80px;
@@ -102,6 +106,7 @@ nav a:hover,
     font-size: 13px;
   }
 }
+
 @media (min-width: 767.98px) {
   .project-cards {
     position: relative;
